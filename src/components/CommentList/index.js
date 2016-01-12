@@ -3,6 +3,7 @@ import Comment from './../Comment';
 
 
 export default class CommentList extends React.Component {
+
     render() {
         var commentNodes = this.props.data.map(function (comment) {
             return (
