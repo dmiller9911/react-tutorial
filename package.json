@@ -1,0 +1,39 @@
+{
+  "name": "react-tutorial",
+  "version": "1.0.0",
+  "description": "Me Learning React",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dmiller9911/react-tutorial.git"
+  },
+  "keywords": [
+    "Reactjs"
+  ],
+  "author": "Doug Miller",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dmiller9911/react-tutorial/issues"
+  },
+  "homepage": "https://github.com/dmiller9911/react-tutorial#readme",
+  "dependencies": {
+    "express": "^4.13.3",
+    "oboe": "^2.1.2",
+    "react": "^0.14.6",
+    "react-dom": "^0.14.6"
+  },
+  "devDependencies": {
+    "babel-loader": "^6.2.1",
+    "babel-preset-es2015": "^6.3.13",
+    "babel-preset-react": "^6.3.13",
+    "gulp": "^3.9.0",
+    "gulp-babel": "^6.1.1",
+    "gulp-nodemon": "^2.0.6",
+    "gulp-webpack": "^1.5.0",
+    "react-dom": "^0.14.6",
+    "webpack": "^1.12.11"
+  }
+}
