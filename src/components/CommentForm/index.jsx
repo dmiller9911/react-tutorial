@@ -24,7 +24,6 @@ export default class CommentForm extends React.Component {
     }
 
     handleSubmit(e) {
-        console.log('Submit');
         e.preventDefault();
 
         var author = this.state.author.trim();

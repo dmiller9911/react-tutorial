@@ -26,7 +26,7 @@ export default class CommentBox extends React.Component {
         oboe({
             url: this.props.url,
             method: "POST",
-            body: comment,
+            body: comment
         })
         .done((data) => {
             this.setState({data: data});

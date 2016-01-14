@@ -1,9 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import CommentBox from './components/CommentBox';
-
+import Routes from './Routes';
 
 ReactDOM.render(
-    <CommentBox url="/api/comments" pollInterval={2000}/>,
+    Routes,
     document.getElementById('content')
 );
